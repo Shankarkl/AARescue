@@ -78,7 +78,8 @@ function isMsisdnRegistered(userMsisdn) {
 
 
 $.soap({
-    url: 'http://41.160.96.91/Blo.AA.Gateway/PanicService.svc',
+    //url: 'http://41.160.96.91/Blo.AA.Gateway/PanicService.svc',
+      url: 'http://gateway.aarescue.co.za/PanicService.svc',    	
     method: 'IsARegisteredUser',
     appendMethodToURL: false,
     SOAPAction: 'http://tempuri.org/IPanicService/IsARegisteredUser',
